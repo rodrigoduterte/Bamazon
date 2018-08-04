@@ -1,0 +1,6 @@
+# MySQL
+
+HOST=
+UNAME=
+PASSWORD=
+PORT=

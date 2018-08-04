@@ -1,0 +1,30 @@
+{
+  "name": "Bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoduterte/Bamazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigoduterte/Bamazon/issues"
+  },
+  "homepage": "https://github.com/rodrigoduterte/Bamazon#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^6.0.0",
+    "execsql": "0.0.3",
+    "inquirer": "^6.0.0",
+    "mysql": "^2.16.0",
+    "readline": "^1.3.0",
+    "rxjs": "^6.2.2",
+    "validator": "^10.4.0"
+  }
+}
