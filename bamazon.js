@@ -40,7 +40,7 @@ bamazon.createDB = bamazon.mysql.createConnection(db); //connection to create da
 bamazon.createDB.connect(function(err) {
     if (err) throw err;
     // executes commands from create.sql and insert.sql
-    bamazon.createDB.query('use bamazon;',function (err){
+    bamazon.createDB.query('select * from bamazon.sales;',function (err){
         if (err) {
             createDB(fs.readFileSync('./insert.sql').toString());
         } else {
