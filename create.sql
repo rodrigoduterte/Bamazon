@@ -1,4 +1,3 @@
--- drop database if exists bamazon; 
 create database if not exists bamazon;
 use bamazon;
 
@@ -86,7 +85,7 @@ create event if not exists updateSalesColumnOfProducts
             SET p.product_sales = pp.item_sale; 
 
 
--- delimiter $$
+
 DROP PROCEDURE IF EXISTS add_inventory_qty;
 create procedure add_inventory_qty(in item integer, in qty decimal(10,0))
     begin
